@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="2dp"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tv_home_name"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Soy Sin" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
